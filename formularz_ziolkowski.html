@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>formularz</title>
+	</head>
+	<body>
+		<center>
+			<h1> Opinia o naleśnikach </h1>
+			<br>
+			<table>
+				<tr>
+					<td>
+						Mail <br>
+						<input name="email" size="10">
+					</td>
+					<th rowspan="1">
+						<button type="rodzaj">Zaloguj</button>
+					</th>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td rowspan="2">
+						<center>
+							Język <br>
+							<select name="nazwa">
+								<option>Polski</option>
+								<option>Deutsch</option>
+								<option>Français</option>
+								<option>English</option>
+								<option>українська</option>
+							</select>
+						</center>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Hasło<br>
+						<input type="password" name="haslo" size="10">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Imię<br>
+						<input name="imie" size="10">
+					</td>
+					<td>
+						Nazwisko<br>
+						<input name="nazisko" size="10">
+					</td>
+					<td height="70" width="100">
+					</td>
+					<td height="70" width="200">
+						<center>
+							Czy jesteś pełnoletni?
+							<select name="nazwa">
+								<option>Tak</option>
+								<option>Nie</option>
+							</select>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<table>
+					<form enctype="text/plain" action="mailto:ziolkowskimateusz542@gmail.com" method="Post"> 
+						<tr>
+							<td colspan="2" width="300">
+								Ulubiony składnik na naleśniki<br>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="700">
+								&nbsp
+								<input type="radio" name="skladnik" checked>Bita śmietana</input>
+								&nbsp &nbsp
+								<input type="radio" name="skladnik">Sos czekoladowy/owocowy</input>
+								&nbsp &nbsp
+								<input type="radio" name="skladnik">Owoce</input>
+								&nbsp &nbsp
+								<input type="radio" name="skladnik">Cukier puder</input>
+								&nbsp &nbsp
+								<input type="radio" name="skladnik">Brak</input>
+							</td>
+						</tr>	
+						<tr>
+							<td colspan="2" width="300" style="background-color: gray;">
+								Czy chciałbyś w przyszłości pracować w naleśnikarni?
+							</td>
+						</tr>
+						<tr>
+							<td width="300">	
+								<input type="radio" name="praca" checked>Tak</input> <br>
+								<input type="radio" name="praca" checked>Nie</input> <br>
+								<input type="radio" name="praca" checked>Nie jestem pewien</input><br>
+							</td>
+					</tr>
+							<tr>
+							<td colspan="2" width="300" style="background-color: gray;">
+							Gdzie najczęściej zamawiasz naleśniki?
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="300">
+								<input type="checkbox" name="miejsce">Na plaży</input>
+								&nbsp
+								<input type="checkbox" name="miejsce">W restauracji</input>
+								&nbsp
+								<input type="checkbox" name="miejsce">Robie sam</input>
+							</td>
+						</tr>
+					</form>	
+				</table>
+		</center>
+			<p style="text-align: right">
+				<button type="reset">Wyczyść wszystko</button>
+				<button type="submit">Wyślij</button><br>
+			</p>	
+		<A HREF="index.html"> wstecz </A> 
+	</body>
+</html>
